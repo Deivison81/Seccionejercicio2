@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/estilopersonales.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<h4>Informacion de Contacto</h4>
+<div class="col-12 formu" id="formu" name="formu">
+    <form class=" align-items: star;" name="formregistro">
+        <div class="row renglnes" id="renglones">
+            <div class="col-6 separacion separaciond">
+                <label>Codigo de Cliente</label>
+                <input type="text" name="codigo" id="codigo"/><br />
+            </div>
+            <div class="col-6 separacion separaciond5">
+                <label>Usuario*</label>
+                <input class="separaciond5" type="text" />
+            </div>
+            <div class="col-6 separaciond5">
+                <label>Nombre*</label>
+                <input type="text" />
+            </div>
+            <div class="col-6">
+                <label>Cargo</label>
+                <input type="text" />
+            </div>
+            <div class="col-6">
+                <label>Telefono*</label>
+                <input type="tel" />
+            </div>
+            <div class="col-6">
+                <label>Numero Celular*</label>
+                <input type="text" />
+            </div>
+            <div class="col-6">
+                <label>Tipo de Contacto</label>
+                <select name="tipo" id="tipo">
+                    <option value="1" id="1">Contacto Comercial</option>
+                    <option value="2" id="2">Pago de Factura</option>
+                    <option value="3" id="3">Representante Legal</option>
+                    <option value="4" id="4">Retiro de Mercancia</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <label>Autorizado para acceder a Web Store</label>
+            <input type="checkbox" /><br />
+            <label>Autorizado para Crear Ordenes</label>
+            <input type="checkbox" /><br />
+            <label>Desea que se envie Informacion de Acceso a su Usuario</label>
+            <input type="checkbox" />
+        </div>
+        <div class="row">
+            <div class="col-lg-10">
+                <button class="bg-primary media-left">Aceptar</button>
+                <button class="bg-primary left">Cancelar</button>
+            </div>
+
+        </div>
+
+
+
+    </form>
+</div>
+<script src="~/Scripts/formulario.js"></script>

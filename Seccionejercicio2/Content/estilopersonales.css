@@ -1,0 +1,33 @@
+﻿body {
+
+}
+.renglnes{
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.separaciond{
+    margin-right: 5px;
+}
+.separaciond5 {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.separacion {
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.formu {
+    text-align: center;
+}
+form {
+    align-items: center;
+    
+}
+form.label{
+    align-items:center;
+
+}
+
+form.input{
+    align-items:end;
+}
